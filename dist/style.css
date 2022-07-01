@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.vision {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 46px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 46px;
+}
+
+.wrapper {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.burger {
+  display: flex;
+  width: 100px;
+  height: 45px;
+  border-radius: 20%;
+  font-size: 30px;
+}
+
+#toppings_button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topp_btn {
+  width: 100px;
+  height: 45px;
+  border-radius: 20%;
+  font-size: 16px;
+}
+
+#counter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20%;
+  border: 1px solid black;
+}
+
+#counter__price {
+  font-size: 18px;
+}
